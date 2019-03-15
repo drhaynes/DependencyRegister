@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D7F9A5E223BC80B002C9705 /* ServiceRegistrar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7F9A5D223BC80B002C9705 /* ServiceRegistrar.swift */; };
 		3D850DF3223BA57900020E8A /* DependencyRegister.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D850DE9223BA57900020E8A /* DependencyRegister.framework */; };
 		3D850DF8223BA57900020E8A /* DependencyRegisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D850DF7223BA57900020E8A /* DependencyRegisterTests.swift */; };
 		3D850DFA223BA57900020E8A /* DependencyRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D850DEC223BA57900020E8A /* DependencyRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,6 +41,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3D7F9A5D223BC80B002C9705 /* ServiceRegistrar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRegistrar.swift; sourceTree = "<group>"; };
 		3D850DE9223BA57900020E8A /* DependencyRegister.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DependencyRegister.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D850DEC223BA57900020E8A /* DependencyRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DependencyRegister.h; sourceTree = "<group>"; };
 		3D850DED223BA57900020E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,10 +94,11 @@
 		3D850DEB223BA57900020E8A /* DependencyRegister */ = {
 			isa = PBXGroup;
 			children = (
-				3D850DEC223BA57900020E8A /* DependencyRegister.h */,
-				3D850DED223BA57900020E8A /* Info.plist */,
 				3D850E03223BA59B00020E8A /* DependencyContainer.swift */,
 				3D850E05223BA5BD00020E8A /* ServiceRegister.swift */,
+				3D7F9A5D223BC80B002C9705 /* ServiceRegistrar.swift */,
+				3D850DED223BA57900020E8A /* Info.plist */,
+				3D850DEC223BA57900020E8A /* DependencyRegister.h */,
 			);
 			path = DependencyRegister;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D7F9A5E223BC80B002C9705 /* ServiceRegistrar.swift in Sources */,
 				3D850E06223BA5BD00020E8A /* ServiceRegister.swift in Sources */,
 				3D850E04223BA59B00020E8A /* DependencyContainer.swift in Sources */,
 			);
